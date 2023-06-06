@@ -2,5 +2,7 @@
     <string name="app_name">MyAppAthorization</string>
     <string name="title_home">Home</string>
     <string name="title_notifications">Notifications</string>
-    <string name="title_authorization">Authorization</string> />
+    <string name="title_authorization">Authorization</string>
+    <string name="log_in">Log In</string>
+    />
 </resources>

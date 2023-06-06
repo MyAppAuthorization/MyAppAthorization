@@ -13,28 +13,32 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="208dp"
-        android:background="@drawable/rounded_edittext"
+        android:background="@drawable/combined_border_and_rounded"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="Введите логин"
+        tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/textPassword"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/rounded_edittext"
+        android:background="@drawable/combined_border_and_rounded"
         android:ems="10"
         android:inputType="textPassword"
         android:shape="rectangle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/textEmailAddress"
+        android:autofillHints="Введите пароль"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/buttonAuth"
@@ -42,7 +46,7 @@
         android:layout_height="50dp"
         android:backgroundTint="#9CEA41"
         android:shape="rectangle"
-        android:text="Log In"
+        android:text="@string/log_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
